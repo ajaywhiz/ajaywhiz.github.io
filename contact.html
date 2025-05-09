@@ -24,7 +24,111 @@
     <title>Chalukya.net</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #e2e8f0; /* Light gray text */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #1e293b; /* Dark navy background */
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #4b5563; /* Darker gray border */
+        }
+        .header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #cbd5e0; /* Light gray heading */
+            margin-bottom: 0.5rem;
+        }
+        .header p {
+            font-size: 1rem;
+            color: #94a3b8; /* Medium gray text */
+        }
+        .ad-space {
+            background-color: #2d3748; /* Slightly lighter navy */
+            padding: 1rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 0.25rem;
+        }
+        .main-content {
+            margin-bottom: 2rem;
+        }
+        .blog-post {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #4b5563; /* Darker gray border */
+        }
+        .blog-post h2 {
+            font-size: 1.875rem;
+            font-weight: 600;
+            color: #cbd5e0; /* Light gray heading */
+            margin-bottom: 0.75rem;
+        }
+        .blog-post p {
+            font-size: 1rem;
+            color: #94a3b8; /* Medium gray text */
+            line-height: 1.6;
+        }
+        .blog-post .post-meta {
+            font-size: 0.875rem;
+            color: #64748b; /* Darker medium gray */
+            margin-bottom: 1rem;
+        }
+        .sidebar {
+            padding-left: 2rem;
+        }
+        .sidebar-section {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #4b5563; /* Darker gray border */
+        }
+        .sidebar-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #cbd5e0; /* Light gray heading */
+            margin-bottom: 1rem;
+        }
+        .sidebar-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar-section ul li {
+            margin-bottom: 0.75rem;
+        }
+        .sidebar-section ul li a {
+            color: #94a3b8; /* Medium gray text */
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+        .sidebar-section ul li a:hover {
+            color: #60a5fa; /* Light blue on hover */
+        }
+        .footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #4b5563; /* Darker gray border */
+            color: #94a3b8; /* Medium gray text */
+            font-size: 0.875rem;
+        }
+        @media (min-width: 768px) {
+            .grid-container {
+                display: grid;
+                grid-template-columns: 70% 30%;
+                gap: 2rem;
+            }
+        }
+    </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSWY7WZ4TH"></script>
@@ -63,17 +167,13 @@
             <div class="grid-container">
                 <div class="main-content">
                     <div class="blog-post">
-                        <img src="images/kalyani_chalukya_emblem.png" alt="Kalyani Chalukya Emblem" style="height: 200px;align-self: center;">
+                       <a href="index.html">Home</a>
                         
                     </div>
                     <div class="blog-post">
-                        <p>The content on this website has been translated from the archives written in <a href="https://en.wikipedia.org/wiki/Modi_script" target="_blank">Modi</a> script. 
-                            The archives has been with the family since long time. A government approved translator helped in translating these in Marathi and English. You can start reading the archives by cliking <a href="english/page1.html">here</a></p>
-                        <p> To lear</p>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8bWpnak15Hzo69uZddmrNa9xF6kw_LKabevShZdFzAulT0A/viewform?embedded=true" width="640" height="1036" frameborder="0" marginheight="0" marginwidth="0" style="background-color: white;">Loading…</iframe>
                     </div>
-                    <div class="blog-post">
-                       <p> <a href="contact.html">Contact Me</a></p>
-                    </div>
+                    
 
                 </div>
 
