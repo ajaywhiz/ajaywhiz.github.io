@@ -114,7 +114,8 @@ body
 
 .flex-child-element {
   flex: 1;
-  border: 2px solid;
+  border: none;
+  text-align: justify;
   margin: 5px;
 }
 
